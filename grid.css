@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+section{
+    width: 70%;
+}
+aside{
+    width: 30%;
+    background-color:  hsl(20, 50%, 98%);
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px;
+     height: 500px;
+    margin-left: 20px; */
+}
+
+section > h1{
+    font-weight: 700;
+    color: hsl(14, 65%, 9%);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    
+}
+.card{
+    display: flex;
+   flex-direction: column;
+}
+.card > .img-cont >img{
+    border-radius: 10px;
+}
+.card > .text-cont{
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+}
+.card > .text-cont > button{
+    border: 1px solid hsl(14, 65%, 9%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin: -30px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 500;
+   
+}
+
+.card > .text-cont > button > img{
+    width: 20px;
+}
+h3{
+    color: hsl(14, 86%, 42%);
+}
+h4{
+    font-weight: 400;
+    font-size: 15px;
+   
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.price-cont{
+    display: flex;
+   
+}
+.main-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid hsl(14, 65%, 9%);
+}
+.first-cont > h3{
+    font-size: 16px;
+    color: hsl(14, 65%, 9%);
+    margin: 0;
+}
+.second-cont > h3{
+    font-size: 16px;
+    color: hsl(14, 65%, 9%);
+    margin: 0;
+    
+}
+.third-cont > h3{
+    font-size: 16px;
+    color: hsl(14, 65%, 9%);
+    margin: 0;
+}
+.price-cont span {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* align-items: end; */
+    font-size: 11px;
+    color: hsl(12, 20%, 44%);
+    gap: 5px;
+    font-weight: 400;
+}
+.price-cont > span{
+    font-weight: 600; 
+    color: hsl(14, 86%, 42%);
+}
+.remove-icon > img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border: 1px solid hsl(12, 20%, 44%);
+    border-radius: 100%;
+    /* display: flex; */
+    /* justify-content: right; */
+    
+}
+.fourth-main > h3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(14, 65%, 9%);
+    margin-bottom: 16px;
+}
+.carbon{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: hsl(14, 65%, 9%);
+margin-bottom: 16px;
+border: 2px solid hsl(14, 25%, 72%);
+background-color: hsl(13, 31%, 94%);
+}
+
+.carbon > remove-icon > img{
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    
+}
+aside.big-text button {
+    width: 100%;
+    padding: 12px;
+    background-color: hsl(14, 86%, 42%);
+    color:  hsl(13, 31%, 94%);
+    border: none;
+    border-radius: 20px;
+    font-size: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  .big-text > h2{
+    color: hsl(14, 86%, 42%);
+  }
+
+   
+
